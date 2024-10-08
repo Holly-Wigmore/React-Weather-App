@@ -6,6 +6,17 @@ function App() {
     <div className="App">
       <h1>Weather Forecast</h1>
       <Weather />
+      <p>
+        Find this project on Find this project on
+        <a
+          href="https://github.com/Holly-Wigmore/React-Weather-App"
+          rel="noreferrer"
+          target="_blank"
+        >
+          {" "}
+          GitHub
+        </a>
+      </p>
     </div>
   );
 }
